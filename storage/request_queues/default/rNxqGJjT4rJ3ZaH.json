@@ -1,0 +1,9 @@
+{
+	"id": "rNxqGJjT4rJ3ZaH",
+	"json": "{\"id\":\"rNxqGJjT4rJ3ZaH\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/FindPincode.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/FindPincode.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2}}",
+	"method": "GET",
+	"orderNo": 1740755127797,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/FindPincode.aspx",
+	"url": "https://www.indiapost.gov.in/VAS/Pages/FindPincode.aspx"
+}

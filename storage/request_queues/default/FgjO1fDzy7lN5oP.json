@@ -1,0 +1,9 @@
+{
+	"id": "FgjO1fDzy7lN5oP",
+	"json": "{\"id\":\"FgjO1fDzy7lN5oP\",\"url\":\"https://www.indiapost.gov.in/Financial/Pages/content/JansurakshaScheme.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/Financial/Pages/content/JansurakshaScheme.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/Financial/Pages/content/JansurakshaScheme.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:29.240Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/Financial/Pages/content/JansurakshaScheme.aspx",
+	"url": "https://www.indiapost.gov.in/Financial/Pages/content/JansurakshaScheme.aspx"
+}

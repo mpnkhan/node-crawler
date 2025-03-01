@@ -1,0 +1,9 @@
+{
+	"id": "XR8vQnfPinITrMm",
+	"json": "{\"id\":\"XR8vQnfPinITrMm\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Bill-Mail.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Bill-Mail.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Bill-Mail.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:32.128Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Bill-Mail.aspx",
+	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Bill-Mail.aspx"
+}

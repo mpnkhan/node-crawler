@@ -1,0 +1,9 @@
+{
+	"id": "NSd47jFoR2DIoYc",
+	"json": "{\"id\":\"NSd47jFoR2DIoYc\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Value-Payable-Post.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Value-Payable-Post.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Value-Payable-Post.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:31.109Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Value-Payable-Post.aspx",
+	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Value-Payable-Post.aspx"
+}

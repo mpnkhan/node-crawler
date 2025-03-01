@@ -1,0 +1,9 @@
+{
+	"id": "H5jOtsidCmxsCdr",
+	"json": "{\"id\":\"H5jOtsidCmxsCdr\",\"url\":\"https://www.indiapost.gov.in/vas/Pages/IndiaPosthome.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/vas/Pages/IndiaPosthome.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/vas/Pages/IndiaPosthome.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":0,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:25.044Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/vas/Pages/IndiaPosthome.aspx",
+	"url": "https://www.indiapost.gov.in/vas/Pages/IndiaPosthome.aspx"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gg4gZcRCicUQ2A1",
+	"json": "{\"id\":\"gg4gZcRCicUQ2A1\",\"url\":\"https://www.indiapost.gov.in/mbe/Pages/dmbe.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in:8080/siteminderagent/forms/login.fcc?SMQUERYDATA=-SM-GpNKUPp1ThQNHCTHuIwXlftlNTVrLTgayn5A5GSozf242gW8kPtN14Lo5ouDTqla1bT5ZBpS5cGhd%2fuaW%2fgmkrQBR69e%2fN2HebAvXjJ9k3KI2x5lfWdgmaQZZKDfcG13UUVSH9IOS5XQqsnXBvFX2WHUX3uIpR9vrcB84Farv3nN%2bpF1yOS78qfVBaIZpQYu2HSTpyMTCEqrJtBxsH2ZiRV50FRgR9%2bvQHWH%2f0Sc9f5HPgXKn%2f91X59lhXZT2LiGHj4yWnvrO6iEGzY38D3TIFcr%2bOufL9d5HKOJW7%2b2u08kSyUXLC3EHCevDFmZD6uEoMXJdDz%2byG9TNtxZ0A5m11hgbSfucOzNbxwoHtMaAWg1ulbe4MfoYnMFYQSR5hddbfnNnx6UwNeW8jOVpxg6L0JGF6%2fzPN2vyZB4tJAYD5QCbibZecfWeIs9uGFtq0u9sYkwDm3%2bd3spQxiX8%2b%2fAbm64%2fwuOmWE2qMbYLltx0Vs8789k9xUZMXzpKXnOpF%2bi3qN3fN4Cmm9tfR27TFIwOj4xvgmnXIpJ2WIPRYmlwEtMfQOusCt6cd0OK7XR%2fmUZ0cBKTWyhhqqgqVWrQm90KBNKrXtf2ts2gVT0rqFzkwSHJzhCnt5DzAkCIzittfiY9V12nDNC%2bC9H3oZWCP11ImYP8%2byENwTOqpJkWi5AW6J%2fYgbnbEtk1KZF0llb8sWqcKoF2apoKULJyNZK72PEVEeHDe0fLcuw%2bcpy%2fFzacv6VeMwaNJEmUTr5CucPxNeU\",\"uniqueKey\":\"https://www.indiapost.gov.in/mbe/Pages/dmbe.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:26.982Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/mbe/Pages/dmbe.aspx",
+	"url": "https://www.indiapost.gov.in/mbe/Pages/dmbe.aspx"
+}

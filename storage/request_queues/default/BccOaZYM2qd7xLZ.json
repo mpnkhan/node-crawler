@@ -1,0 +1,9 @@
+{
+	"id": "BccOaZYM2qd7xLZ",
+	"json": "{\"id\":\"BccOaZYM2qd7xLZ\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Registration.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Registration.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Registration.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:31.278Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Registration.aspx",
+	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Registration.aspx"
+}

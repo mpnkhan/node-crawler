@@ -1,0 +1,9 @@
+{
+	"id": "iK1iFe54UaNPm7O",
+	"json": "{\"id\":\"iK1iFe54UaNPm7O\",\"url\":\"https://www.indiapost.gov.in/Financial/Pages/Content/Services_through_IPPB.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/Financial/Pages/Content/Services_through_IPPB.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/Financial/Pages/Content/Services_through_IPPB.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:33.646Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/Financial/Pages/Content/Services_through_IPPB.aspx",
+	"url": "https://www.indiapost.gov.in/Financial/Pages/Content/Services_through_IPPB.aspx"
+}

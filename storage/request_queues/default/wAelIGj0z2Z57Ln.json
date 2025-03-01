@@ -1,0 +1,9 @@
+{
+	"id": "wAelIGj0z2Z57Ln",
+	"json": "{\"id\":\"wAelIGj0z2Z57Ln\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/CustomerFeedback.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/CustomerFeedback.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/CustomerFeedback.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:27.455Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/CustomerFeedback.aspx",
+	"url": "https://www.indiapost.gov.in/VAS/Pages/CustomerFeedback.aspx"
+}

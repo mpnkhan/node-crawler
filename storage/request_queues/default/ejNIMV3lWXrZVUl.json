@@ -1,0 +1,9 @@
+{
+	"id": "ejNIMV3lWXrZVUl",
+	"json": "{\"id\":\"ejNIMV3lWXrZVUl\",\"url\":\"https://www.indiapost.gov.in/Financial/Pages/Content/Money-Remittance-Services.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/Financial/Pages/Content/Money-Remittance-Services.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/Financial/Pages/Content/Money-Remittance-Services.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:29.931Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/Financial/Pages/Content/Money-Remittance-Services.aspx",
+	"url": "https://www.indiapost.gov.in/Financial/Pages/Content/Money-Remittance-Services.aspx"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "czJ1QzvDwvlmZac",
+	"json": "{\"id\":\"czJ1QzvDwvlmZac\",\"url\":\"https://www.indiapost.gov.in/Philately/Pages/Content/Definitive-Stamps.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/Philately/Pages/Content/Definitive-Stamps.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/Philately/Pages/Content/Definitive-Stamps.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:31.739Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/Philately/Pages/Content/Definitive-Stamps.aspx",
+	"url": "https://www.indiapost.gov.in/Philately/Pages/Content/Definitive-Stamps.aspx"
+}

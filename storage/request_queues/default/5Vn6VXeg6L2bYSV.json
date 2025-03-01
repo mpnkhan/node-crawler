@@ -1,0 +1,9 @@
+{
+	"id": "5Vn6VXeg6L2bYSV",
+	"json": "{\"id\":\"5Vn6VXeg6L2bYSV\",\"url\":\"https://www.indiapost.gov.in/mbe/Pages/ViewTransactionHistory.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in:8080/siteminderagent/forms/login.fcc?SMQUERYDATA=-SM-tj5r0DCZw6l1aC%2fNlcMVAhKT5df2TaPWR2SJGtXK4%2bjX7Qyk7VDgn6Ct6cfHXhGKN%2fBLCBI%2bUQl4dyvZ92ycssEm7edZsDDoC4m5xF7ZReb6L0UZI61ozA%2fx4Q0efqlTwJoigdsNXU4mZ%2faKufVGRfuWGhI073GlfFM%2fwcU9CGyBHMaz84rY7q%2bOEXm9bdYr2APK5LJowY%2fSAqZnQbuDFaj49Zs66TanN1hBb7zaWnk1VsasbjomaUJfBCH6f4cwOMzGRSqwDFiYB%2bM1ZFUzu3yR1vE1aQPMuKywy8NMDZLNMPw1TcaxdDGjt5hphv8FDJTQ71Or2vXASFkhui0ow86eCNbrFGgE%2fMkhsEvYoreDUdEqn88fvcmOl1VZhoimYQWMzLLCDuKtbpA1HMcrHlrnnG7J7jqua1aC%2b0ThWkIcR6Visxccb7JXRhNogsHdxnVxf9b2avpgnc%2biVZL5u2igzdQO5QiczMZVsRXI9MkL%2f2vVxjamZ24SwsRdZ85UPA3xJy%2bfa2lEEQHIrqVuxoQpkbGPK3zy61tRR0d7GP15ekDhrlpZlrd9%2brIz2uP%2b0fUnsiewsSZaElH9HbtoMa9TTWlYekc8a7cbquc%2bYT7rge%2bWTkY4V5p1YWN6BsK9LTdcJrHIT5%2b%2f93YLzeTp4wMWt9MhMBqQTfGqFOeoMjcbN5ypu17fnP1xc7Ik35Pgos3ShXPbK6FjIDjcxYRSFuXetrCb41%2bpidAfrMxFEiAF7MfoXc0dC17nr0H7gMYT\",\"uniqueKey\":\"https://www.indiapost.gov.in/mbe/Pages/ViewTransactionHistory.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:29.780Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/mbe/Pages/ViewTransactionHistory.aspx",
+	"url": "https://www.indiapost.gov.in/mbe/Pages/ViewTransactionHistory.aspx"
+}

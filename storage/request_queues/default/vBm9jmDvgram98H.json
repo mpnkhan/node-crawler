@@ -1,0 +1,9 @@
+{
+	"id": "vBm9jmDvgram98H",
+	"json": "{\"id\":\"vBm9jmDvgram98H\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Mail-Services.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Mail-Services.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Mail-Services.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:31.338Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Mail-Services.aspx",
+	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Mail-Services.aspx"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ROL7JqkmOBU9tmt",
+	"json": "{\"id\":\"ROL7JqkmOBU9tmt\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/PostOfficeNetwork.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/PostOfficeNetwork.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/PostOfficeNetwork.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:33.608Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/PostOfficeNetwork.aspx",
+	"url": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/PostOfficeNetwork.aspx"
+}

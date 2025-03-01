@@ -1,0 +1,9 @@
+{
+	"id": "ruzSCurPSuMLnvE",
+	"json": "{\"id\":\"ruzSCurPSuMLnvE\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/Content/PrivacyPolicy.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/Content/PrivacyPolicy.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/Content/PrivacyPolicy.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:33.115Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/Content/PrivacyPolicy.aspx",
+	"url": "https://www.indiapost.gov.in/VAS/Pages/Content/PrivacyPolicy.aspx"
+}

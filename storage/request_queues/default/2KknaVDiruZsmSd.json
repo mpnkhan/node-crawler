@@ -1,0 +1,9 @@
+{
+	"id": "2KknaVDiruZsmSd",
+	"json": "{\"id\":\"2KknaVDiruZsmSd\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Parcel.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Parcel.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Parcel.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:30.667Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Parcel.aspx",
+	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Parcel.aspx"
+}

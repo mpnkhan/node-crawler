@@ -1,0 +1,9 @@
+{
+	"id": "11vMyQ6shORsZIH",
+	"json": "{\"id\":\"11vMyQ6shORsZIH\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/CustomerLinking.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/CustomerLinking.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/CustomerLinking.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:26.344Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/CustomerLinking.aspx",
+	"url": "https://www.indiapost.gov.in/VAS/Pages/CustomerLinking.aspx"
+}
