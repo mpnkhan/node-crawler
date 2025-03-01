@@ -27,7 +27,7 @@ function saveUrlsToFile(urls, fileIndex) {
 const crawler = new CheerioCrawler({
   maxRequestsPerCrawl: 100, // Limit the number of requests
   async requestHandler({ request, $ }) {
-    const { url, userData: { depth } } = request;
+    const { url, depth } = request;
 
     // Skip if the URL has already been visited
     if (visitedUrls.has(url)) {
@@ -70,7 +70,7 @@ const crawler = new CheerioCrawler({
       if (!visitedUrls.has(fullUrl)) {
         await crawler.addRequests([{
           url: fullUrl,
-          userData: { depth: depth + 1 }, // Pass depth in userData
+          depth: depth + 1,
         }]);
       }
     }
@@ -79,10 +79,7 @@ const crawler = new CheerioCrawler({
 
 // Start the crawler
 (async () => {
-  await crawler.run([{
-    url: START_URL,
-    userData: { depth: 0 }, // Initialize depth for the starting URL
-  }]);
+  await crawler.run([START_URL]);
 
   // Save any remaining URLs
   const remainingUrls = Array.from(visitedUrls);

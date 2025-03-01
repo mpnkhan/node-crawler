@@ -10,10 +10,7 @@ const MAX_RETRIES = 3; // Maximum number of retries for each URL
 
 // Axe-core options
 const axeOptions = {
-    include: [['iframe']],
-    iframes: true,
-    allowedOrigins: ["<unsafe_all_origins>", "<same_origin>"],
-    runOnly: ["wcag2a", "wcag2aa"]
+  runOnly: ['wcag2a', 'wcag2aa'], // Only run WCAG 2.0 Level A and AA rules
 };
 
 // Function to launch browser with retry for EBUSY error
@@ -48,15 +45,24 @@ async function runAxe(url, options, retries = MAX_RETRIES) {
 
       // Navigate to the URL and wait for the page to fully load
       console.log('Navigating to the URL...');
-      await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+      await page.goto(url, { waitUntil: 'networkidle2', timeout: 120000 }); // Increased timeout to 120 seconds
 
       // Wait for the body to ensure the DOM is ready
       console.log('Waiting for the body...');
-      await page.waitForSelector('body');
+      await page.waitForSelector('body', { timeout: 60000 }); // Wait for the body with a timeout
+
+      // Check the page title
+      const pageTitle = await page.title();
+      if (pageTitle === 'Page not found') {
+        console.log(`Skipping ${url} because the page title is "Page not found".`);
+        return null; // Skip this URL
+      }
 
       // Optional: Wait for additional elements (e.g., main content)
       // console.log('Waiting for main content...');
-      // await page.waitForSelector('#main-content', { timeout: 5000 });
+      // await page.waitForSelector('#main-content', { timeout: 60000 }).catch(() => {
+      //   console.log('Main content not found. Proceeding with analysis...');
+      // });
 
       // Optional: Add a small delay to allow dynamic content to load
       console.log('Waiting for dynamic content to load...');
