@@ -26,6 +26,8 @@ function saveUrlsToFile(urls, fileIndex) {
 // Initialize the crawler
 const crawler = new CheerioCrawler({
   maxRequestsPerCrawl: 100, // Limit the number of requests
+  // maxConcurrency: 10, // Limit concurrent requests
+  // requestHandlerTimeoutSecs: 60, // Timeout for each request  
   async requestHandler({ request, $ }) {
     const { url, depth } = request;
 

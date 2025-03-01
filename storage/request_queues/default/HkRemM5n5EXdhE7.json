@@ -1,9 +1,0 @@
-{
-	"id": "HkRemM5n5EXdhE7",
-	"json": "{\"id\":\"HkRemM5n5EXdhE7\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/e-Post-.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/e-Post-.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/e-Post-.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:32.518Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/e-Post-.aspx",
-	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/e-Post-.aspx"
-}

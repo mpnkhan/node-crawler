@@ -1,9 +1,0 @@
-{
-	"id": "wIgPOXAF5kS0xGa",
-	"json": "{\"id\":\"wIgPOXAF5kS0xGa\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/International-Air-Parcels.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/International-Air-Parcels.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/International-Air-Parcels.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:31.502Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/International-Air-Parcels.aspx",
-	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/International-Air-Parcels.aspx"
-}

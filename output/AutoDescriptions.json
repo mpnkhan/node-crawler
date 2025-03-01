@@ -2398,5 +2398,29 @@
     "DisabilitiesAffected": "Blind,DeafBlind,Mobility",
     "Level__1": "WCAG 2.1(AA)",
     "BestPractice": ""
+  },
+    {
+    "Sino": 101,
+    "RuleID": "aria-deprecated-role",
+    "Level": "A",
+    "Checkpoint": "4.1.2 Name, Role, Value",
+    "Category": "",
+    "Summary": "Deprecated  aria attributes for an element",
+    "SuccessCriteria": "wcag412",
+    "Description [Deque]": "Elements must only use permitted ARIA attributes",
+    "Description (2) [accessiblity insights] Microsoft": "",
+    "CSR": "Yes",
+    "Widget Coverage": "No",
+    "Description3 [UserWay]": "Elements must only use permitted ARIA attributes",
+    "Recommendation": "Change the role to one on which the attribute is not prohibited\nProvide the information as text in the page.\nMove the attribute to a different element that does support it.",
+    "ValueStatement": "Prohibited attributes are often used in an attempt to communicate information that then ends up ignored by screen readers and other assistive technologies. If the information conveyed is not important, the attribute can be ignored.",
+    "SuggestedCode": "",
+    "Reference (not used)": "",
+    "ReferencesW3C": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value",
+    "WCAGURL": "",
+    "Impact": "Serious",
+    "DisabilitiesAffected": "Blind,DeafBlind,Mobility",
+    "Level__1": "WCAG 2.1(AA)",
+    "BestPractice": ""
   }
 ]

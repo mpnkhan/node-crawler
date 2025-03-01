@@ -5,13 +5,17 @@ const { AxePuppeteer } = require('@axe-core/puppeteer');
 
 // Configuration
 const INPUT_FILE = process.argv[2] || path.join('output', 'urls.txt');
-const OUTPUT_FILE = path.join('output', 'output.json'); // Path to the output JSON file
-const MAX_RETRIES = 3; // Maximum number of retries for each URL
+const OUTPUT_FILE = path.join('output', 'output.json'); 
+const MAX_RETRIES = 3;
 
 // Axe-core options
-const axeOptions = {
-  runOnly: ['wcag2a', 'wcag2aa'], // Only run WCAG 2.0 Level A and AA rules
-};
+  const axeOptions = {
+      include: [['iframe']],
+      iframes: true,
+      allowedOrigins: ["<unsafe_all_origins>", "<same_origin>"],
+      runOnly: ["wcag2a", "wcag2aa"]
+  };
+
 
 // Function to launch browser with retry for EBUSY error
 async function launchBrowserWithRetry() {
@@ -70,7 +74,12 @@ async function runAxe(url, options, retries = MAX_RETRIES) {
 
       // Inject and run axe-core with the provided options
       console.log('Running axe-core analysis...');
-      const results = await new AxePuppeteer(page).configure(options).analyze();
+      //Read https://www.npmjs.com/package/@axe-core/puppeteer
+      // const results = await new AxePuppeteer(page).configure(options).analyze();
+      const results = await new AxePuppeteer(page)
+                      .withTags(['wcag2a', 'wcag2aa'])
+                      .analyze();
+
       console.log(`Accessibility results for ${url}:`, results.violations.length, 'violations');
 
       // Return the URL and violations

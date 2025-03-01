@@ -1,5 +1,5 @@
 # node-crawler
-Crawlee  in a slow system. My windows system froze and crashed when i tried to crawl recursively to a depth of 5 and run axe and return results on it. 
+Crawlee  in a slow system. My windows system froze and crashed when i tried to crawl recursively to a depth of 5 and run axe and save  results. So ctrawling and splitting into various text files of 10 url each for running axe. 
 
 # How to run
 1. `node crawler.js`

@@ -1,9 +1,0 @@
-{
-	"id": "2L343aGD2mFntVx",
-	"json": "{\"id\":\"2L343aGD2mFntVx\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/Content/Screenreader.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/Content/Screenreader.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/Content/Screenreader.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:25.997Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/Content/Screenreader.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/Content/Screenreader.aspx"
-}

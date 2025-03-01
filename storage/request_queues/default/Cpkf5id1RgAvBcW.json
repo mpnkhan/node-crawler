@@ -1,9 +1,0 @@
-{
-	"id": "Cpkf5id1RgAvBcW",
-	"json": "{\"id\":\"Cpkf5id1RgAvBcW\",\"url\":\"https://www.indiapost.gov.in/vas/pages/userregistration.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/vas/pages/userregistration.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/vas/pages/userregistration.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:34.402Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/vas/pages/userregistration.aspx",
-	"url": "https://www.indiapost.gov.in/vas/pages/userregistration.aspx"
-}

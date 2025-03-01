@@ -1,9 +1,0 @@
-{
-	"id": "MAU6EhZV24pYDPX",
-	"json": "{\"id\":\"MAU6EhZV24pYDPX\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/CitizenCharter.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/CitizenCharter.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/CitizenCharter.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:34.090Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/CitizenCharter.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/CitizenCharter.aspx"
-}

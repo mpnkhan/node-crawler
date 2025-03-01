@@ -1,9 +1,0 @@
-{
-	"id": "hniLADfiaXz2Rc7",
-	"json": "{\"id\":\"hniLADfiaXz2Rc7\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Registered-Newspaper.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Registered-Newspaper.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Registered-Newspaper.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:30.327Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Registered-Newspaper.aspx",
-	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Registered-Newspaper.aspx"
-}

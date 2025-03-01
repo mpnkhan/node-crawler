@@ -1,9 +1,0 @@
-{
-	"id": "0I1hPJOAvOnb3Hm",
-	"json": "{\"id\":\"0I1hPJOAvOnb3Hm\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/CompareServices.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/CompareServices.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/CompareServices.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:32.749Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/CompareServices.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/CompareServices.aspx"
-}

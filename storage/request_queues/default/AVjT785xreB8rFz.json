@@ -1,9 +1,0 @@
-{
-	"id": "AVjT785xreB8rFz",
-	"json": "{\"id\":\"AVjT785xreB8rFz\",\"url\":\"https://www.indiapost.gov.in/VASHindi/Pages/Form.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VASHindi/Pages/Form.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":3}}",
-	"method": "GET",
-	"orderNo": 1740755128729,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VASHindi/Pages/Form.aspx",
-	"url": "https://www.indiapost.gov.in/VASHindi/Pages/Form.aspx"
-}

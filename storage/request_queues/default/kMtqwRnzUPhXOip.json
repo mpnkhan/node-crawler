@@ -1,9 +1,0 @@
-{
-	"id": "kMtqwRnzUPhXOip",
-	"json": "{\"id\":\"kMtqwRnzUPhXOip\",\"url\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Post-Card.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Post-Card.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/MBE/Pages/Content/Post-Card.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:30.709Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/MBE/Pages/Content/Post-Card.aspx",
-	"url": "https://www.indiapost.gov.in/MBE/Pages/Content/Post-Card.aspx"
-}

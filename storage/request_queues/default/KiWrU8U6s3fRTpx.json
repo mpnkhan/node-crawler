@@ -1,9 +1,0 @@
-{
-	"id": "KiWrU8U6s3fRTpx",
-	"json": "{\"id\":\"KiWrU8U6s3fRTpx\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/listofModernisedPos.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/listofModernisedPos.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2}}",
-	"method": "GET",
-	"orderNo": 1740755127054,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/listofModernisedPos.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/listofModernisedPos.aspx"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "orb9fF5xozUN4vw",
-	"json": "{\"id\":\"orb9fF5xozUN4vw\",\"url\":\"https://www.indiapost.gov.in/Philately/Pages/Content/Philatelic-Deposit-Account.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/Philately/Pages/Content/Philatelic-Deposit-Account.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/Philately/Pages/Content/Philatelic-Deposit-Account.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:31.909Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/Philately/Pages/Content/Philatelic-Deposit-Account.aspx",
-	"url": "https://www.indiapost.gov.in/Philately/Pages/Content/Philatelic-Deposit-Account.aspx"
-}

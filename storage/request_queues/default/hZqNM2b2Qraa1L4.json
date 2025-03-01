@@ -1,9 +1,0 @@
-{
-	"id": "hZqNM2b2Qraa1L4",
-	"json": "{\"id\":\"hZqNM2b2Qraa1L4\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/CabinetMinister.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/CabinetMinister.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/CabinetMinister.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:25.901Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/CabinetMinister.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/CabinetMinister.aspx"
-}

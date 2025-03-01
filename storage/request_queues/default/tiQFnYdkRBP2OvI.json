@@ -1,9 +1,0 @@
-{
-	"id": "tiQFnYdkRBP2OvI",
-	"json": "{\"id\":\"tiQFnYdkRBP2OvI\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/RTI/RTI-Manual-3.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/RTI/RTI-Manual-3.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2}}",
-	"method": "GET",
-	"orderNo": 1740755127487,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/RTI/RTI-Manual-3.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/RTI/RTI-Manual-3.aspx"
-}

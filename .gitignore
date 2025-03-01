@@ -1,3 +1,8 @@
+# Output folder
+output/output.json
+output/*.txt
+output/*.xls
+storage/*
 
 # Logs
 logs

@@ -1,9 +1,0 @@
-{
-	"id": "DwdaB3s7vtnRyz6",
-	"json": "{\"id\":\"DwdaB3s7vtnRyz6\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/RTIManual9_minister.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/RTIManual9_minister.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/RTIManual9_minister.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:34.158Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/RTIManual9_minister.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/RTIManual9_minister.aspx"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "vSWv2dMy8KmNhYh",
-	"json": "{\"id\":\"vSWv2dMy8KmNhYh\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/Content/ITProject_governance.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/Content/ITProject_governance.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2}}",
-	"method": "GET",
-	"orderNo": 1740755313241,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/Content/ITProject_governance.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/Content/ITProject_governance.aspx"
-}

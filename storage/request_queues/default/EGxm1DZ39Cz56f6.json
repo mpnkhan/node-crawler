@@ -1,9 +1,0 @@
-{
-	"id": "EGxm1DZ39Cz56f6",
-	"json": "{\"id\":\"EGxm1DZ39Cz56f6\",\"url\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/Organisation.aspx\",\"loadedUrl\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/Organisation.aspx\",\"uniqueKey\":\"https://www.indiapost.gov.in/VAS/Pages/AboutUs/Organisation.aspx\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-02-28T15:05:34.064Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/Organisation.aspx",
-	"url": "https://www.indiapost.gov.in/VAS/Pages/AboutUs/Organisation.aspx"
-}
