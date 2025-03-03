@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const START_URL = 'https://www.indiapost.gov.in/vas/Pages/IndiaPosthome.aspx';
+const START_URL = 'https://mtnldelhi.in';
 const MAX_DEPTH = 5;
 const URLS_PER_FILE = 10;
 const OUTPUT_DIR = 'output';
@@ -15,42 +15,39 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 
 // Set to track visited URLs
 const visitedUrls = new Set();
+let urlBuffer = []; // Buffer to hold unsaved URLs
+let fileIndex = 1;  // File index tracker
 
-// Function to save URLs to a text file
-function saveUrlsToFile(urls, fileIndex) {
-  const filePath = path.join(OUTPUT_DIR, `urls_${fileIndex}.txt`);
-  fs.writeFileSync(filePath, urls.join('\n'));
-  console.log(`Saved ${urls.length} URLs to ${filePath}`);
+// Function to save URLs to a text file in batches of 10
+function saveUrlsToFile() {
+  if (urlBuffer.length >= URLS_PER_FILE) {
+    const chunk = urlBuffer.splice(0, URLS_PER_FILE); // Get first 10 URLs and remove from buffer
+    const filePath = path.join(OUTPUT_DIR, `urls_${fileIndex}.txt`);
+    fs.writeFileSync(filePath, chunk.join('\n'));
+    console.log(`Saved ${chunk.length} URLs to ${filePath}`);
+    fileIndex++; // Increment file index
+  }
 }
 
 // Initialize the crawler
 const crawler = new CheerioCrawler({
-  maxRequestsPerCrawl: 100, // Limit the number of requests
-  // maxConcurrency: 10, // Limit concurrent requests
-  // requestHandlerTimeoutSecs: 60, // Timeout for each request  
+  maxRequestsPerCrawl: 1000, // Increased limit
   async requestHandler({ request, $ }) {
-    const { url, depth } = request;
+    const { url, depth = 0 } = request;
 
     // Skip if the URL has already been visited
-    if (visitedUrls.has(url)) {
-      return;
-    }
+    if (visitedUrls.has(url)) return;
 
     // Mark the URL as visited
     visitedUrls.add(url);
+    urlBuffer.push(url);
     console.log(`Crawling: ${url} (Depth: ${depth})`);
 
     // Save URLs in batches of 10
-    if (visitedUrls.size % URLS_PER_FILE === 0) {
-      const fileIndex = Math.floor(visitedUrls.size / URLS_PER_FILE);
-      const urlsToSave = Array.from(visitedUrls).slice((fileIndex - 1) * URLS_PER_FILE, fileIndex * URLS_PER_FILE);
-      saveUrlsToFile(urlsToSave, fileIndex);
-    }
+    saveUrlsToFile();
 
-    // Stop crawling if the maximum depth is reached
-    if (depth >= MAX_DEPTH) {
-      return;
-    }
+    // Stop crawling if max depth is reached
+    if (depth >= MAX_DEPTH) return;
 
     // Extract links from the page
     const links = $('a')
@@ -60,7 +57,12 @@ const crawler = new CheerioCrawler({
         if (!href) return false;
         try {
           const fullUrl = new URL(href, url).href;
-          return fullUrl.startsWith('https://www.indiapost.gov.in/') && fullUrl.endsWith('.aspx');
+          const skipExtensions = ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.jpg', '.png', '.ppt', '.pptx'];
+          if (skipExtensions.some(ext => fullUrl.toLowerCase().endsWith(ext))) {
+            console.log(`Skipping file: ${fullUrl}`);
+            return false;
+          }
+          return fullUrl.startsWith('https://mtnldelhi.in');
         } catch (error) {
           return false;
         }
@@ -70,10 +72,7 @@ const crawler = new CheerioCrawler({
     for (const link of links) {
       const fullUrl = new URL(link, url).href;
       if (!visitedUrls.has(fullUrl)) {
-        await crawler.addRequests([{
-          url: fullUrl,
-          depth: depth + 1,
-        }]);
+        await crawler.addRequests([{ url: fullUrl, depth: depth + 1 }]);
       }
     }
   },
@@ -83,11 +82,11 @@ const crawler = new CheerioCrawler({
 (async () => {
   await crawler.run([START_URL]);
 
-  // Save any remaining URLs
-  const remainingUrls = Array.from(visitedUrls);
-  if (remainingUrls.length > 0) {
-    const fileIndex = Math.ceil(visitedUrls.size / URLS_PER_FILE);
-    saveUrlsToFile(remainingUrls, fileIndex);
+  // Save any remaining URLs that didn't fit in the last batch
+  if (urlBuffer.length > 0) {
+    const filePath = path.join(OUTPUT_DIR, `urls_${fileIndex}.txt`);
+    fs.writeFileSync(filePath, urlBuffer.join('\n'));
+    console.log(`Saved remaining ${urlBuffer.length} URLs to ${filePath}`);
   }
 
   console.log('Crawling completed.');
