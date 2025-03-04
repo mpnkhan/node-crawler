@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const START_URL = 'https://mtnldelhi.in';
-const MAX_DEPTH = 5;
+const START_URL = 'https://dpiit.gov.in/site-map';
+const MAX_DEPTH = 1;
 const URLS_PER_FILE = 10;
 const OUTPUT_DIR = 'output';
 
@@ -62,7 +62,7 @@ const crawler = new CheerioCrawler({
             console.log(`Skipping file: ${fullUrl}`);
             return false;
           }
-          return fullUrl.startsWith('https://mtnldelhi.in');
+          return fullUrl.startsWith('https://dpiit.gov.in/');
         } catch (error) {
           return false;
         }

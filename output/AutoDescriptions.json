@@ -362,7 +362,7 @@
   {
     "Sino": 16,
     "RuleID": "aria-roles",
-    "Level": "",
+    "Level": "A",
     "Checkpoint": "4.1.2 Name, Role, Value",
     "Category": "Custom Controls, Forms and UI",
     "Summary": "ARIA role has invalid value",

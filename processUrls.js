@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
 const { AxePuppeteer } = require('@axe-core/puppeteer');
+const notifier = require('node-notifier');
 
 // Configuration
 const INPUT_FILE = process.argv[2] || path.join('output', 'urls.txt');
@@ -57,7 +58,8 @@ async function runAxe(url, options, retries = MAX_RETRIES) {
 
       // Check the page title
       const pageTitle = await page.title();
-      if (pageTitle === 'Page not found') {
+      // if (pageTitle === 'Page not found') {
+      if (pageTitle === '404 Not Found') {
         console.log(`Skipping ${url} because the page title is "Page not found".`);
         return null; // Skip this URL
       }
@@ -146,4 +148,9 @@ async function processUrlsFromFile(filePath) {
 (async () => {
   await processUrlsFromFile(INPUT_FILE);
   console.log('Processing completed.');
+  notifier.notify({
+    title: 'processUrls.js',
+    message: 'Processing completed!',
+    sound: true, // Play the default notification sound
+  }); 
 })();

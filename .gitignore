@@ -1,7 +1,8 @@
 # Output folder
 output/output.json
-output/*.txt
-output/*.xls
+output/*txt
+output/*xls
+output/*xlsx
 storage/*
 
 # Logs
