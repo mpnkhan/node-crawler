@@ -2,14 +2,15 @@ const { CheerioCrawler } = require('crawlee');
 const fs = require('fs');
 const path = require('path');
 
-const SITEMAP_URL = 'https://www.indiapost.gov.in/VAS/pages/sitemap.aspx';
-const OUTPUT_FILE = 'output/sitemap_urls.txt';
-const DOMAIN = 'https://www.indiapost.gov.in/'; // Restrict URLs to this domain
+const SITEMAP_URL = 'https://powermin.gov.in/en/sitemap';
+const DOMAIN = 'https://powermin.gov.in'; // Restrict URLs to this domain
+
+const OUTPUT_FILE = 'output/powermin_sitemap_urls.txt';
+
+
 const EXCLUDED_EXTENSIONS = ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.jpg', '.png', '.ppt', '.pptx'];
 
-const urls = new Set(); // Store unique URLs
-
-// Function to check if a URL should be excluded
+const urls = new Set();
 const shouldExclude = (url) => {
     return EXCLUDED_EXTENSIONS.some(ext => url.toLowerCase().endsWith(ext));
 };
@@ -26,6 +27,7 @@ const crawler = new CheerioCrawler({
             if (link) {
                 try {
                     const fullUrl = new URL(link, request.url).href;
+                    console.log(`fullUrl ${fullUrl}`);
 
                     // Only allow URLs that start with the DOMAIN and do not have excluded extensions
                     if (fullUrl.startsWith(DOMAIN) && !shouldExclude(fullUrl)) {
