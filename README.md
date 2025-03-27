@@ -4,5 +4,5 @@ Crawlee  in a slow system. My windows system froze and crashed when i tried to c
 # How to run
 1. `node crawler.js`
 2. `node processUrls.js output/urls_1.txt`
-3. `node converToExcels.js`
+3. `node convertToExcel.js`
 
