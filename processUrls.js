@@ -7,6 +7,11 @@ const notifier = require('node-notifier');
 // Configuration
 const INPUT_FILE = process.argv[2] || path.join('output', 'urls.txt');
 const OUTPUT_FILE = path.join('output', 'output.json'); 
+const OUTPUT_404_FILE = '404.txt';
+
+// Make sure the file is empty at start (optional)
+// fs.writeFileSync(OUTPUT_404_FILE, '', 'utf8');
+
 const MAX_RETRIES = 3;
 
 // Axe-core options
@@ -59,7 +64,8 @@ async function runAxe(url, options, retries = MAX_RETRIES) {
       // Check the page title
       const pageTitle = await page.title();
       // if (pageTitle === 'Page not found') {
-      if (pageTitle === '404 Not Found') {
+      if (pageTitle.toLowerCase().includes('404')) {
+        fs.appendFileSync(OUTPUT_404_FILE, url + '\n', 'utf8');
         console.log(`Skipping ${url} because the page title is "Page not found".`);
         return null; // Skip this URL
       }
