@@ -10,7 +10,7 @@ const OUTPUT_FILE = path.join('output', 'output.json');
 const OUTPUT_404_FILE = '404.txt';
 
 // Make sure the file is empty at start (optional)
-// fs.writeFileSync(OUTPUT_404_FILE, '', 'utf8');
+fs.writeFileSync(OUTPUT_404_FILE, '', 'utf8');
 
 const MAX_RETRIES = 3;
 
@@ -55,7 +55,13 @@ async function runAxe(url, options, retries = MAX_RETRIES) {
 
       // Navigate to the URL and wait for the page to fully load
       console.log('Navigating to the URL...');
-      await page.goto(url, { waitUntil: 'networkidle2', timeout: 120000 }); // Increased timeout to 120 seconds
+      // await page.goto(url, { waitUntil: 'networkidle2', timeout: 120000 }); // Increased timeout to 120 seconds
+      const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
+      if (response.status() === 404) {
+        fs.appendFileSync(OUTPUT_404_FILE, url + '\n', 'utf8');
+        console.log(`Skipping ${url} due to HTTP 404`);
+        return null;      // Skip further processing
+      }      
 
       // Wait for the body to ensure the DOM is ready
       console.log('Waiting for the body...');
